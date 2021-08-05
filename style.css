@@ -1,0 +1,238 @@
+* {
+    padding:0;
+    margin:0;
+}
+body{
+    background-color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+#header {
+    top: 0;
+    display: block;
+    width: 1200px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    border-bottom: 1px solid;
+}
+#headerText {
+    display: block;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    padding-top: 30px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    color: black;
+}
+#headerText:hover {
+    cursor: pointer;
+    color: red;
+}
+h2 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    margin: 10px;
+}
+h3 {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+p {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+#content {
+    width: 1200px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    outline: 1px solid black;
+}
+/* OPTIONS ELEMENTS */
+.optionsHeader {
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 6px;
+    margin-bottom: 4px;
+}
+.optionsContainer {
+    display: flex;
+}
+#optionsBlock {
+    display: block;
+    width: 110px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.optionButton {
+    outline: 1px solid black;
+    border: none;
+    margin-bottom: 5px;
+    width: 110px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition-duration: 0.4s;
+    font-family: 'Open Sans', sans-serif;
+}
+.optionButton:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+#button0, #button1, #button2, #button3 {margin-right: 5px;}
+#button5 {background-color: white; height: 25px; margin-right: 5px;}
+#button6 {background-color: gray; height: 25px; margin-right: 5px;}
+#button7 {background-color: beige; height: 25px; margin-right: 5px;}
+#button8 {background-color: black; height: 25px; margin-right: 5px;}
+
+/* OGALLERY */
+#gallery {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.combinationContainer {
+    display: block;
+    width: 75px;
+    height: 120px;
+    margin: 10px;
+    transition-duration: 0.15s;
+}
+.combinationContainer:hover {
+    outline: 1px solid black;
+    cursor: pointer;
+}
+
+.colorBlock {
+    display: block;
+    height: 60px;
+    width: 75px;
+}
+.colorBlock2 {
+    display: none;
+    height: 40px;
+    width: 75px;
+    background-color: aquamarine;
+}
+.colorBlock3 {
+    display: none;
+    height: 30px;
+    width: 75px;
+    background-color: aquamarine;
+}
+.colorBlock4 {
+    display: none;
+    height: 24px;
+    width: 75px;
+    background-color: aquamarine;
+}
+/* DISPLAY ELEMENTS */
+#sideContainer {
+    border-left: 1px solid;
+    padding-top: 10px;
+}
+#displayBlockCombination {
+    display: flex;
+    margin: 10px;
+}
+.displayBlock {
+    display: block;
+    height: 75px;
+    width: 175px;
+}
+.displayBlock2 {
+    display: none;
+    height: 75px;
+    width: 100px;
+}
+#variationsContainer {
+    display: block;
+}
+#displayGradientCombination {
+    display: block;
+    width: 350px;
+    height: 75px;
+    margin: 10px;
+}
+#displayLetterContainer {
+    display: none;
+    width: 335px;
+    margin: 10px;
+    padding: 8px;
+}
+#displayLetter {
+    fill: none;
+}
+#displayTextHeader {
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    margin-top: -10px;
+    margin-bottom: -5px;
+}
+#displayTextHeader2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    margin-top: -5px;
+    margin-bottom: -15px;
+}
+#displayTextBody {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    width: 300px;
+}
+/* COLOR INFORMATION */
+#valueContainer {
+    display: block;
+    padding: 8px;
+}
+#valueText {
+    display: flex;
+}
+.singleValueContainer{
+    margin-right: 10px;
+    width: 50px;
+    padding: 5px;
+}
+.colorValueBlock {
+    display: block;
+    height: 25px;
+    width: 25px;
+    margin-bottom: 5px;
+}
+/* FOOTER */
+#footer {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    outline: 1px solid black;
+}
+.footerLink {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: black;
+    margin: 7px;
+    margin-bottom: 20px;
+}
+.footerLink:hover {
+    cursor: pointer;
+    color: red;
+}
+/* ABOUT PAGE */
+
+#aboutContent {
+    display: block;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 1px solid black;
+}
